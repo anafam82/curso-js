@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coverter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><h1>Convesor de Moedas</h1></header>
+   
+    <button onclick="converter ()">Converter</button>
+           
+    <div id="resultado">Clique no botão acima para iniciar</div>
+    <script>
+        function converter (){
+
+            let distancia = window.prompt("Digite uma distância em metros (m).")
+            metros = Number(distancia)
+            
+            let res = window.document.getElementById("resultado")
+            res.innerHTML = `<p>A <strong>distância</strong> de ${metros} metros, corresponde a ... </p>
+            <p> ${metros/1000} quilometros (Km) </p> <p> ${metros/100} hectômetros (Hm) </p>`
+
+        }
+    </script>
+</body>
+</html>

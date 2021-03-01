@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Desafio antes e depois</h1>
+    </header>
+    <section>
+        <button onclick="botao ()">Antecessor e Sucessor</button>
+    </section>
+    <script>
+        function botao(){
+            let valor = window.prompt("Digite um número inteiro qualquer.")
+            num = Number(valor)
+
+            ant = num - 1
+            suc = num + 1
+
+            window.alert(`Antes de ${valor} temos o número ${ant}. Depois de ${valor} temos o número ${suc}.`)
+        }
+    </script>
+</body>
+</html>

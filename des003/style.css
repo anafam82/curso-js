@@ -1,0 +1,16 @@
+
+body{
+    text-align: center;
+}
+
+header {
+    font: 20pt Arial;
+    
+}
+button{
+    font-size: 20pt;
+    color: white;
+    text-align: center;
+    background: rgb(47, 80, 141);
+       
+}

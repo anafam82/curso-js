@@ -1,0 +1,19 @@
+body{
+    font-size: large;
+}
+
+button{
+  
+    width: 100pt;
+    height: 40pt;
+    font: 16pt Arial;
+}
+
+#resultado{
+    margin-top: 10pt;
+}
+
+p{
+    font: 18pt Arial;
+    
+}
