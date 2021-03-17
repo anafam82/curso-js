@@ -6,4 +6,5 @@ function converter (){
     var cart = Number(carteira)
     var res = window.document.getElementById('resultado')
     res.innerHTML = `<p> Com R$ ${cart} na carteira, e com a cotação do dólar a ${cot} reais, você vai conseguir comprar US$ ${cart/cot}.`
+    
 }

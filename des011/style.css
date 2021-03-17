@@ -1,0 +1,19 @@
+h1{
+
+}
+
+button{
+    width: 100px;
+    height: 40px;
+    font-size: 14pt;
+    font-weight: bold;
+
+}
+
+#ebis{
+    background: rgb(68, 218, 68)
+}
+
+#nbis{
+    background: rgb(230, 107, 107);
+}
