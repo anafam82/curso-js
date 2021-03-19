@@ -1,0 +1,19 @@
+button{
+    width: 120px;
+    height: 40px;
+    font-size: 12pt;
+    font-weight: bold;
+
+}
+
+#rep{
+    background: rgb(202, 58, 118);
+    color: rgb(114, 30, 30)
+}
+#rec{
+    color:rgb(218, 157, 44)
+}
+#aprov{
+    background: greenyellow;
+    color:green
+}
